@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "SendIt",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -8,9 +8,17 @@
     "dev": "nodemon server.js",
     "serve": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namitmalasi/sharing.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namitmalasi/sharing/issues"
+  },
+  "homepage": "https://github.com/namitmalasi/sharing#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
