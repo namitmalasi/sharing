@@ -1,7 +1,7 @@
 const nodemailer = require("nodemailer");
 
 function sendMail({ from, to, subject, text, html }) {
-  const transporter = nodemailer.createTransport({
+  let transporter = nodemailer.createTransport({
     host: process.env.SMTP_HOST,
     port: process.env.SMTP_PORT,
     secure: false,
